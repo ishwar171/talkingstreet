@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>TALKING STREET</title>
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="image/rsz_talking-street.png" type="image/x-icon">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="fonts/font-awesome-4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/talkingstreet.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$('#myModal').modal('show');
+		</script>
+		<script>
+			$('#myModal1').modal('show');
+		</script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 bannernavbar">
+					<nav role="navigation" class="navbar navbar-inverse topnavbar">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle bannertogglebtn">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a href="#" class="navbar-brand brandtalking hidden-sm hidden-xs"><img class="img-responsive" src="image/rsz_talking-street.png"></a>
+							<a href="#" class="navbar-brand brandtalking mobile hidden-lg hidden-md center"><img class="img-responsive" src="image/rsz_talking-street.png"></a>
+						</div>
+						<!-- Collection of nav links, forms, and other content for toggling -->
+						<div id="navbarCollapse" class="collapse navbar-collapse animated slideInLeft">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#"><i class="fa fa-home"></i>&nbsp; Home</a></li>
+								<li><a href="#"><i class="fa fa-user"></i>&nbsp; Profile</a></li>
+								<li class="dropdown">
+									<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;    	Messages <b class="caret"></b></a>
+									<ul role="menu" class="dropdown-menu">
+										<li><a href="#"><i class="fa fa-inbox" aria-hidden="true"></i>&nbsp; Inbox</a></li>
+										<li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>&nbsp; Drafts</a></li>
+										<li><a href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp; Sent Items</a></li>
+										<li class="divider"></li>
+										<li><a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i>&nbsp; Trash</a></li>
+									</ul>
+								</li>
+							</ul>
+							<form role="search" class="navbar-form navbar-left">
+								<div class="form-group">
+									<input type="text" placeholder="Search" class="form-control">
+								</div>
+							</form>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-sign-in" aria-hidden="true"></i>&nbsp; Login</a></li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="modal loginmodal animated zoomIn" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+				aria-hidden="true">
+				<div class="modal-dialog modal-md">
+					<div class="modal-content">
+						<div class="modal-header seemoreheader">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								×</button>
+							<h4 class="modal-title" id="myModalLabel">
+								Login/Signup</h4>
+						</div>
+						<div class="modal-body">
+							<div class="row">
+								<div class="col-md-10  col-lg-10  col-xs-12  col-sm-12 text-center">
+									<!-- Nav tabs -->
+									<ul class="nav nav-tabs">
+										<li class="active"><a href="#Login" data-toggle="tab">Login</a></li>
+										<li><a href="#Registration" data-toggle="tab">Signup</a></li>
+									</ul>
+									<!-- Tab panes -->
+									<div class="tab-content">
+										<div class="tab-pane active" id="Login">
+											<form role="form" class="form-horizontal">
+											<div class="form-group">
+												<label for="email" class="col-sm-2 col-md-2 col-lg-2 col-xs-4 control-label">
+													Email</label>
+												<div class="col-sm-10 col-md-10 col-lg-10 col-xs-8 input-group">
+													<input type="email" class="form-control" id="email1" placeholder="Email Address">
+													<span class="input-group-addon usericon iconloginform"><i class="fa fa-envelope"></i></span>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="exampleInputPassword1" class="col-sm-2 col-md-2 col-lg-2 col-xs-4 control-label">
+													Password</label>
+												<div class="col-sm-10 col-md-10 col-lg-10 col-xs-8 input-group">
+													<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+													<span class="input-group-addon usericon iconloginform"><i class="fa fa-lock"></i></span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-3 col-md-2 col-lg-2">
+												</div>
+												<div class="col-sm-9 col-md-10 col-lg-10 col-xs-12">
+													<button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;
+														Submit</button>
+													<a href="javascript:;">Forgot your password?</a>
+												</div>
+											</div>
+											</form>
+										</div>
+										<div class="tab-pane" id="Registration">
+											<form role="form" class="form-horizontal">
+											<div class="form-group">
+												<label for="email" class="col-sm-2 col-lg-2 col-md-2 col-xs-3 control-label">
+													Name</label>
+												<div class="col-sm-10 col-md-10 col-lg-10 col-xs-9">
+													<div class="row">
+														<div class="col-md-4 col-lg-4 col-xs-6 col-sm-4">
+															<select class="form-control mrname">
+																<option>Mr.</option>
+																<option>Ms.</option>
+																<option>Mrs.</option>
+															</select>
+														</div>
+														<div class="col-md-8 col-lg-8 col-sm-8 col-xs-6 input-group">
+															<input type="text" class="form-control" placeholder="Name" />
+															<span class="input-group-addon usericon iconloginform"><i class="fa fa-user"></i></span>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="email" class="col-sm-2 col-md-2 col-lg-2 col-xs-3 control-label">
+													Email</label>
+												<div class="col-sm-10 col-md-9 col-lg-10 col-xs-9 input-group">
+													<input type="email" class="form-control" id="email" placeholder="Email Address">
+													<span class="input-group-addon usericon iconloginform"><i class="fa fa-envelope"></i></span>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="mobile" class="col-sm-2 col-md-2 col-lg-2 col-xs-3 control-label">
+													Mobile</label>
+												<div class="col-sm-10 col-md-9 col-lg-10 col-xs-9 input-group">
+													<input type="email" class="form-control" id="mobile" placeholder="Mobile" />
+													<span class="input-group-addon usericon iconloginform"><i class="fa fa-phone" aria-hidden="true"></i></span>
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="password" class="col-sm-2 col-md-2 col-lg-2 col-xs-3 control-label">
+													Password</label>
+												<div class="col-sm-10 col-md-9 col-lg-10 col-xs-9 input-group">
+													<input type="password" class="form-control" id="password" placeholder="Password" />
+													<span class="input-group-addon usericon iconloginform"><i class="fa fa-lock"></i></span>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-sm-3 col-md-2 col-lg-2">
+												</div>
+												<div class="col-sm-9 col-md-10 col-lg-10 col-xs-12">
+													<button type="button" class="btn btn-primary btn-sm"><i class="fa fa-floppy-o" aria-hidden="true"></i>&nbsp;
+														Save & Continue</button>
+													<button type="button" class="btn btn-default btn-sm">
+														Cancel</button>
+												</div>
+											</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 col-md-12 col-lg-12 bannercol text-center">
+					<h4 class="bannertext hidden-xs hidden-sm anmimated slideInDown">You Saved <span class="twogb animated zoomInDown">2GB</span> In Your Last Session</h4>
+					<h4 class="bannertext3 hidden-lg hidden-md anmimated slideInDown">You Saved <span class="twogb animated zoomInDown"><br>2GB</span><br> In Your Last Session</h4>
+					
+					<p class="bannertext1 hidden-xs hidden-sm"><button class="btn btn-xs btn-success seemore" data-toggle="modal" data-target="#myModal1">See More</button></p>
+					<p class="bannertext2 hidden-lg hidden-md"><button class="btn btn-xs btn-success seemore" data-toggle="modal" data-target="#myModal1">See More</button></p>
+					
+				</div>
+			</div>
+			<div class="modal fade" id="myModal1" role="dialog">
+				<div class="modal-dialog modal-sm loginmodal1">
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header seemoreheader">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Welcome to Talking Street</h4>
+						</div>
+						<div class="modal-body">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 hidden-md hidden-lg textcolunms text-center">
+					<p class="textcontent">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+			</div>
+		</div>
