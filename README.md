@@ -1,4 +1,4 @@
-#####Talkin Street 
+#####Talking Street 
 ```
 In these task i have done talking street small template with an responsive manner for all moblies devices
 ```
