@@ -1,0 +1,136 @@
+.imagebanner{
+	
+}
+.bannercol{
+	padding-left: 0px;
+    padding-right: 0px;
+	background-image:url('../image/web-bg.jpg');
+	background-repeat:no-repeat;
+	
+	background-position: center; 
+	height: 600px;
+}
+.topnavbar{
+	position: absolute;
+    width: 100%;
+    z-index: 1;
+    /* padding-left: 0px; */
+    border-radius: 0px;
+	background-color: rgba(49, 112, 143, 0.7);
+    border-color: rgba(49, 112, 143, 0.88);
+    box-shadow: 0px 0px 9px 2px rgba(157, 157, 157, 0.67);
+	
+}
+.bannernavbar{
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.navbar-inverse .navbar-toggle:focus, .bannertogglebtn{
+	background-color: #DA9112;
+	float:left;
+	
+}
+.navbar-inverse .navbar-brand,.brandtalking{
+	color: #FF5722;
+	text-align:center;
+	margin-top: -11px;
+}
+.bannertext{
+	font-size: 59px;
+    font-family: serif;
+    position: absolute;
+    top: 34%;
+    color: #fff;
+    left: 17%;
+}
+
+.twogb{
+	color: #990000;
+}
+.twogb{
+	-webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-iteration-count:infinite;
+}
+.mobile{
+	margin-left:29%;
+}
+.bannertext1{
+	font-size: 59px;
+    font-family: serif;
+    position: absolute;
+    top: 51%;
+    color: #fff;
+    left: 50%;
+	outline:none;
+	border:none;
+}
+.bannertext2{
+	font-size: 59px;
+    font-family: serif;
+    position: absolute;
+    top: 73%;
+    color: #fff;
+    left: 43%;
+	outline:none;
+	border:none;
+}
+.bannertext3{
+	font-size: 50px;
+    font-family: serif;
+    position: absolute;
+    top: 35%;
+    color: #fff;
+    left: 15%;
+	right: 10%;
+	
+}
+
+.seemore{
+	border-radius: 20px;
+    padding-left: 22%;
+    padding-right: 22%;
+	outline:none;
+	border:none;
+}
+.loginmodal{
+	margin-top:10%;
+}
+.nav-tabs {
+    margin-bottom: 15px;
+}
+.sign-with {
+    
+    padding: 20px;
+}
+
+.logindialog{
+	width:50%;
+}
+.loginmodal1{
+	margin-top:22%;
+}
+.seemoreheader{
+	background-color: #009900;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.iconloginform{
+	background-color: #66a3ff;
+    color: #fff;
+    text-shadow: 0 3px 4px rgba(0,0,0,.5);
+}
+.textcontent{
+	font-size:25px;
+	font-family: serif;
+	color:#1a1a1a;
+}
+.textcolunms{
+	background: #999999;
+}
+
+
+
+
+
+
